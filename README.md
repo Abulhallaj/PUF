@@ -4,6 +4,7 @@
 **Requires :** [TamperMonkey](https://tampermonkey.net/)  
 **License:** GPLv3  
 **License URI:** http://www.gnu.org/licenses/gpl-3.0.html  
+>>>>>>> c5a50c249140d9375c92b0ae2a43be31c4f144aa
 
 Add some alternation to fix Waze editor UI for Persian editors  
 
