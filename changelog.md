@@ -1,4 +1,4 @@
-	1.0 - 1396/10/11 .o0=~ First Public Release ~=0o. (2018-01-01)
+###	1.0 - 1396/10/11 .o0=~ First Public Release ~=0o. (2018-01-01) ###
 	  -- Add Editor language Alarm
 	  -- Add Editor detail menu UI Fix
 	  -- Add Landmark edit panel UI Fix
