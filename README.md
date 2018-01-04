@@ -1,10 +1,10 @@
 # PUF (Persian UI Fix) #
-**Contributors:** [abulhallaj]  
+**Contributors:** [Ali Abulhallaj](http://google.com/+AliAbulhallaj)
 **Tags:** puf, persian ui fix, wme, waze map editor, wme script  
 **Requires :** [TamperMonkey](https://tampermonkey.net/)  
 **License:** GPLv3  
 **License URI:** http://www.gnu.org/licenses/gpl-3.0.html  
->>>>>>> c5a50c249140d9375c92b0ae2a43be31c4f144aa
+**Changelog:** [Read here](changelog.md)
 
 Add some alternation to fix Waze editor UI for Persian editors  
 
