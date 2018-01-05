@@ -9,7 +9,13 @@ body,label.control-label,.tooltip
   font-family:'Segoe UI',Tahoma,sans-serif!important;
 }
 
-.problem-edit,.title,.user-about,div#segment-edit-general,div#landmark-edit-general,.map-comment-feature-editor div.tab-content,.camera div.tab-content,.settings.side-panel-section,.direction-message,.save-popover,p.message,span.street,ul.feed-list,ul.result-list,.modal-content,.archive-panel,.selection.selection-icon,.tabs-container,.place-update,.menu,ul.nav.nav-tabs
+.feed-issue .type,.feed-notifications .title,.notification-detail.panel.show h2
+{
+  font-family:Calibri;
+  font-weight:700;
+}
+
+.problem-edit,.title,.user-about,div#segment-edit-general,div#landmark-edit-general,.map-comment-feature-editor div.tab-content,.camera div.tab-content,.settings.side-panel-section,.direction-message,.save-popover,p.message,span.street,ul.feed-list,ul.result-list,.modal-content,.archive-panel,.selection.selection-icon,.tabs-container,.place-update,.menu,ul.nav.nav-tabs,.notification-detail.panel.show
 {
   direction:rtl;
 }
@@ -46,12 +52,6 @@ ul.nav,ul.result-list,.transactions ul,.save-popover ul,ul.additional-attributes
 {
   right:inherit!important;
   left:14px;
-}
-
-.feed-issue .type
-{
-  font-family:Calibri;
-  font-weight:700;
 }
 
 th
