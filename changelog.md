@@ -1,4 +1,9 @@
 # PUF Changelog #
+## v1.1 - 1396/10/15 ##
+* Add Notification panel UI Fix
+* Fix Segment detail direction
+* Fix closures alert direction
+* Some minor changes
 ##	v1.0 - 1396/10/11 ## .o0=~ First Public Release ~=0o. (2018-01-01)
 * Add Editor language Alarm
 * Add Editor detail menu UI Fix
