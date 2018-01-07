@@ -15,12 +15,12 @@ body,label.control-label,.tooltip
   font-weight:700;
 }
 
-.problem-edit,.title,.user-about,div#segment-edit-general,div#landmark-edit-general,.map-comment-feature-editor div.tab-content,.camera div.tab-content,.settings.side-panel-section,.direction-message,.save-popover,p.message,span.street,ul.feed-list,ul.result-list,.modal-content,.archive-panel,.selection.selection-icon,.tabs-container,.place-update,.menu,ul.nav.nav-tabs,.notification-detail.panel.show,.segment-details,.alert-danger
+.problem-edit,.title,.user-about,div#segment-edit-general,div#landmark-edit-general,.map-comment-feature-editor div.tab-content,.camera div.tab-content,.settings.side-panel-section,.direction-message,.save-popover,p.message,span.street,ul.feed-list,ul.result-list,.modal-content,.archive-panel,.selection.selection-icon,.tabs-container,.place-update,.menu,ul.nav.nav-tabs,.notification-detail.panel.show,.segment-details,.alert-danger,.attributes-form,.image-view
 {
   direction:rtl;
 }
 
-.controls.input-group,input.form-control
+.controls.input-group,input.form-control,.venue-image-dialog .user,.conversation-view .comment-title
 {
   direction:ltr;
 }
@@ -75,7 +75,7 @@ th
   text-align:left;
 }
 
-.controls-container.in-label.toggle-empty,.unit-label,.problem-edit .section .title::after,button.send-button.waze-btn.waze-btn-blue,.pinned.text-checkbox
+.controls-container.in-label.toggle-empty,.unit-label,.problem-edit .section .title::after,button.send-button.waze-btn.waze-btn-blue,.pinned.text-checkbox,.venue-image-dialog .delete-button,.close,.save-popover .error-list .actions .save
 {
   float:left!important;
 }
@@ -98,7 +98,7 @@ th
   left:inherit;
 }
 
-.direction-label
+.direction-label,.conversation-view span.username,.save-popover .error-list .actions .edit
 {
   float:right!important;
 }
@@ -115,7 +115,7 @@ th.restriction-segment-attribute
   padding-left:8px!important;
 }
 
-span.restriction-item-badge.restriction-item-badge-allowed
+span.restriction-item-badge.restriction-item-badge-allowed,.venue-image-dialog .delete-button:before
 {
   margin-right:inherit!important;
   margin-left:5px;
@@ -209,4 +209,13 @@ span.restriction-item-badge.restriction-item-badge-allowed
 {
   direction:rtl;
   text-align:right;
+}
+
+div#WMEFP-UR-ALLPM
+{
+  right: inherit !important;
+  left: 40px;
+  margin-right: -40px;
+  margin-left: inherit !important;
+  float: left !important;
 }
