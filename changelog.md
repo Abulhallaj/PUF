@@ -1,5 +1,5 @@
 # PUF Changelog #
-## v1.1 - 1396/10/15 ##
+## v1.1 - 1396/10/16 ##
 * Add Notification panel UI Fix
 * Fix Segment detail direction
 * Fix Closures alert direction
