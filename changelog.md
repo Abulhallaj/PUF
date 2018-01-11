@@ -1,4 +1,15 @@
 # PUF Changelog #
+## v1.1 - 1396/10/16 ##
+* Add Notification panel UI Fix
+* Fix Segment detail direction
+* Fix Closures alert direction
+* Fix Place attribute form direction
+* Fix Place image view form direction
+* Fix Place image dialog direction
+* Fix Buttons direction in save error popup
+* Fix Author level position in comment dialog
+* Fix PM to All icon position in comment dialog (WME Magic)
+* Some minor changes
 ##	v1.0 - 1396/10/11 ## .o0=~ First Public Release ~=0o. (2018-01-01)
 * Add Editor language Alarm
 * Add Editor detail menu UI Fix
