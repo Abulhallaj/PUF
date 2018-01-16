@@ -2,7 +2,7 @@
 // @name			WME Persian UI Fix (dev)
 // @author			Ali Abulhallaj
 // @namespace		hallaj@gmail.com
-// @version			1.1.3
+// @version			1.1.4
 // @description		Add some alternation to fix waze editor UI for Persian editors
 // @include			https://www.waze.com/*/editor*
 // @include			https://www.waze.com/editor*
@@ -17,6 +17,8 @@
 // ==/UserScript==
 
 /* Changelog
+	1.1.4 - 1396/10/26
+		-- Fix Default font
 	1.1.3 - 1396/10/26
 		-- Add Vazir Open Webfont as default font
 		-- Remove Embeded font
@@ -92,7 +94,7 @@
 	0.1 - initial version
 	  -- Change font of street name to Tahoma;
 */
-var wmepuf_version = '1.1.3';
+var wmepuf_version = '1.1.4';
 var prefix = "wmePUF";
 var wmePUFAddon;
 var tabAttempts = 0;
