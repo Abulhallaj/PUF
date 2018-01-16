@@ -1,4 +1,8 @@
 # PUF Changelog #
+### v1.1.2 - 1396/10/25 ###
+* Add Embeded font
+### v1.1.1 - 1396/10/24 ###
+* Add Menubar UI Fix
 ## v1.1 - 1396/10/16 ##
 * Add Notification panel UI Fix
 * Fix Segment detail direction
