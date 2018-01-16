@@ -1,12 +1,16 @@
 section#sidepanel-PersianUIFix
 {
   direction:rtl;
-  font-family:Calibri,'Segoe UI',Tahoma;
+  font-family:Vazir,Calibri,'Segoe UI',Tahoma;
 }
+
+/* Begin webfont implementation */
+@import url('https://cdn.rawgit.com/rastikerdar/vazir-font/master/dist/font-face.css');
+/* End webfont implementation */
 
 body,label.control-label,.tooltip
 {
-  font-family:'Segoe UI',Tahoma,sans-serif!important;
+  font-family:Vazir,'Segoe UI',Tahoma,sans-serif!important;
 }
 
 .feed-issue .type,.feed-notifications .title,.notification-detail.panel.show h2
