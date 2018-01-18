@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name			WME Persian UI Fix (dev)
+// @name			WME Persian UI Fix
 // @author			Ali Abulhallaj
 // @namespace			hallaj@gmail.com
 // @version			1.2
