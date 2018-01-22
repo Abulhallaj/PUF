@@ -1,9 +1,16 @@
 # PUF Changelog #
+### v1.1.5 - 1396/10/28 ###
+* Fix Node edit detail panel
+### v1.1.4 - 1396/10/26 ###
+* Fix Default font
+### v1.1.3 - 1396/10/26 ###
+* Add Vazir Open Webfont as default font
+* Remove Embeded font
 ### v1.1.2 - 1396/10/25 ###
 * Add Embeded font
 ### v1.1.1 - 1396/10/24 ###
 * Add Menubar UI Fix
-## v1.1 - 1396/10/16 ##
+### v1.1 - 1396/10/16 ###
 * Add Notification panel UI Fix
 * Fix Segment detail direction
 * Fix Closures alert direction
