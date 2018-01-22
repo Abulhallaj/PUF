@@ -1,8 +1,8 @@
 # PUF Changelog #
-## v1.2 - 1396/10/28 ##
+### v1.2 - 1396/10/28 ###
 * Add Menubar UI Fix
 * Some minor changes
-## v1.1 - 1396/10/16 ##
+### v1.1 - 1396/10/16 ###
 * Add Notification panel UI Fix
 * Fix Segment detail direction
 * Fix Closures alert direction
