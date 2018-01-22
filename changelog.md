@@ -1,4 +1,8 @@
 # PUF Changelog #
+### v1.3 - 1396/11/02 ###
+* Add [Vazir](https://github.com/rastikerdar/vazir-font) webfont as default UI font
+(With this change, all platforms may see the correct font)
+* Some small UI Fix for comapatibility with new web font
 ### v1.2 - 1396/10/28 ###
 * Add Menubar UI Fix
 * Some minor changes
