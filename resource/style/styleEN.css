@@ -1,0 +1,24 @@
+section#sidepanel-PersianUIFix
+{
+  direction:rtl;
+  font-family:Calibri,'Segoe UI',Tahoma;
+}
+
+/* Main font replacement */
+body,label.control-label,.tooltip
+{
+  font-family:'Segoe UI',Tahoma,sans-serif!important;
+}
+
+/* Address preview */ 
+.address-edit .preview
+{
+    direction: rtl;
+}
+
+/* Map Comment */
+.conversation-view .comment .comment-content .text
+{
+    text-align: right;
+    direction: rtl;
+}
