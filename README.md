@@ -8,6 +8,8 @@
 
 Add some alternation to fix Waze editor UI for Persian editors  
 
+![PUF Before & After](graphic/PUF_Before-After.gif)
+
 ## توضیحات ##
 
 این اسکریپت به منظور بهینه‌سازی رابط کاربری ادیتور ویز برای کاربران فارسی زبان طراحی شده است. سعی بر این است تا محیط ادیتور تا حد ممکن با ساختار راست به چپ هماهنگ شده و تجربه شما را از ویرایش نقشه بهبود بخشد.

@@ -1,6 +1,11 @@
 # PUF Changelog #
-### v1.3.5 - 1396/10/28 ###
-* Fix Node edit detail panel
+### v1.4.7 - 1396/12/06 ###
+* Fix Top menu position with standard code
+### v1.4 - 1396/12/06 ###
+* Add Map loading indicator direction Fix
+* Add Node edit detail panel UI Fix
+* Fix Place work hours direction
+* Some minor changes
 ### v1.3 - 1396/11/02 ###
 * Add [Vazir](https://github.com/rastikerdar/vazir-font) webfont as default UI font
 (With this change, all platforms may see the correct font)
