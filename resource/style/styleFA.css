@@ -19,7 +19,7 @@ body,label.control-label,.tooltip
   font-weight:700;
 }
 
-.problem-edit,.title,.user-about,div#segment-edit-general,div#landmark-edit-general,.map-comment-feature-editor div.tab-content,.camera div.tab-content,.settings.side-panel-section,.direction-message,.save-popover,p.message,span.street,ul.feed-list,ul.result-list,.modal-content,.archive-panel,.selection.selection-icon,.tabs-container,.place-update,.menu,ul.nav.nav-tabs,.notification-detail.panel.show,.segment-details,.alert-danger,.attributes-form,.image-view
+.problem-edit,.title,.user-about,div#segment-edit-general,div#landmark-edit-general,.map-comment-feature-editor div.tab-content,.camera div.tab-content,.settings.side-panel-section,.direction-message,.save-popover,p.message,span.street,ul.feed-list,ul.result-list,.modal-content,.archive-panel,.selection.selection-icon,.tabs-container,.place-update,.menu,ul.nav.nav-tabs,.notification-detail.panel.show,.segment-details,.alert-danger,.attributes-form,.image-view,div#node-edit-general,.topbar.loading-indicator
 {
   direction:rtl;
 }
@@ -218,53 +218,80 @@ span.restriction-item-badge.restriction-item-badge-allowed,.venue-image-dialog .
 /* Menu Dropdown Layout */
 .toolbar-submenu
 {
-  direction: rtl;
+  direction:rtl;
 }
 
 .toolbar .group-title
 {
-  margin-right: 40px;
-  margin-left: inherit !important;
+  margin-right:40px;
+  margin-left:inherit!important;
 }
 
-#edit-buttons .toolbar-group .toolbar-group-item {
-  padding-right: 40px;
-  padding-left: inherit;
+#edit-buttons .toolbar-group .toolbar-group-item
+{
+  padding-right:40px;
+  padding-left:inherit;
 }
 
-#edit-buttons .toolbar-group .toolbar-group-item .item-icon {
-  right: 0;
-  left: inherit;
+#edit-buttons .toolbar-group .toolbar-group-item .item-icon
+{
+  right:0;
+  left:inherit;
 }
 
-#edit-buttons .toolbar-group .toolbar-group-item .menu-title {
-  padding-right: 0;
-  padding-left: 15px;
+#edit-buttons .toolbar-group .toolbar-group-item .menu-title
+{
+  padding-right:0;
+  padding-left:15px;
 }
 
-#edit-buttons .toolbar-group-map-comments .dropdown-menu .drawing-controls {
-  right: 2px;
-  left: inherit;
+#edit-buttons .toolbar-group-map-comments .dropdown-menu .drawing-controls
+{
+  right:2px;
+  left:inherit;
 }
 
-.toolbar-group-drawing menu.dropdown-menu {
-  left: -117px !important;
+.toolbar-group-drawing menu.dropdown-menu
+{
+  left:-117px!important;
 }
 
-.toolbar-group-venues menu.dropdown-menu {
-  left: -148px !important;
+.toolbar-group-venues menu.dropdown-menu
+{
+  left:-148px!important;
 }
 
-.toolbar-group-map-comments menu.dropdown-menu {
-  left: -10px !important;
+.toolbar-group-map-comments menu.dropdown-menu
+{
+  left:-10px!important;
 }
 /* Menu Dropdown Layout */
 
+/* Place work hours */
+.radio input[type='radio'], .radio-inline input[type='radio'], .checkbox input[type='checkbox'], .checkbox-inline input[type='checkbox']
+{
+  margin-right:-20px;
+  margin-left:inherit;
+}
+
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12
+{
+  float:right;
+}
+
+.pull-left.to-label
+{
+  float:right!important;
+  margin-right:inherit!important;
+  margin-left:10px;
+}
+/* Place work hours */
+
 div#WMEFP-UR-ALLPM
 {
-  right: inherit !important;
+  right: inherit!important;
   left: 40px;
   margin-right: -40px;
-  margin-left: inherit !important;
-  float: left !important;
+  margin-left: inherit!important;
+  float: left!important;
 }
