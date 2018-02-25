@@ -8,7 +8,7 @@
 
 Add some alternation to fix Waze editor UI for Persian editors  
 
-![PUF Before & After](graphic/PUF_Before-After.gif)
+![PUF Before & After](resource/graphic/PUF_Before-After.gif)
 
 ## توضیحات ##
 
