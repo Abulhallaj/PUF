@@ -1,4 +1,7 @@
 # PUF Changelog #
+### v1.5 - 1396/12/07 ###
+* Fix Top menu position with standard code
+* Some minor changes
 ### v1.4 - 1396/12/06 ###
 * Add Map loading indicator direction Fix
 * Add Node edit detail panel UI Fix
