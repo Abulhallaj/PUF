@@ -169,12 +169,13 @@ function createAddon() {
 	section.innerHTML += '<ul>';
 	section.innerHTML += '<li>اصلاح فونت فارسی در محیط ویرایشگر برای خوانایی بیشتر</li>';
 	section.innerHTML += '<li>راست&zwnj;چین کردن منوی تنظیمات ویرایشگر</li>';
-	section.innerHTML += '<li>راست&zwnj;چین کردن منوی تغییرات هننگام ذخیره</li>';
 	section.innerHTML += '<li>راست&zwnj;چین کردن برگه خوراک و سایر زیرمنوها</li>';
 	section.innerHTML += '<li>راست&zwnj;چین کردن برگه سفرها</li>';
 	section.innerHTML += '<li>راست&zwnj;چین کردن برگه منطقه&zwnj;ها</li>';
 	section.innerHTML += '<li>راست&zwnj;چین کردن برگه مشخصات سگمنت</li>';
 	section.innerHTML += '<li>راست&zwnj;چین کردن برگه مشخصات مکان</li>';
+	section.innerHTML += '<li>راست&zwnj;چین کردن پنجره تغییرات هنگام ذخیره</li>';
+	section.innerHTML += '<li>راست&zwnj;چین کردن منوهای رسم سگمنت و محل</li>';
 	section.innerHTML += '<li>راست&zwnj;چین کردن پنجره کامنت&zwnj;ها</li>';
 	section.innerHTML += '<li>راست&zwnj;چین کردن پنجره دوربین&zwnj;ها</li>';
 	section.innerHTML += '<li>راست&zwnj;چین کردن پنجره اعلانات</li>';

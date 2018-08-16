@@ -1,4 +1,7 @@
 # PUF Changelog #
+### v1.6 - 1397/05/25 ###
+* Add Save menu changelog UI Fix
+* Some minor changes
 ### v1.5 - 1396/12/07 ###
 * Fix Top menu position with standard code
 * Some minor changes
