@@ -8,7 +8,7 @@ section#sidepanel-PersianUIFix
 @import url('https://cdn.rawgit.com/rastikerdar/vazir-font/master/dist/font-face.css');
 /* End webfont implementation */
 
-body,label.control-label,.tooltip
+body,label.control-label,.tooltip,.changes-log-region
 {
   font-family:Vazir,'Segoe UI',Tahoma,sans-serif!important;
 }
@@ -19,7 +19,7 @@ body,label.control-label,.tooltip
   font-weight:700;
 }
 
-.problem-edit,.title,.user-about,div#segment-edit-general,div#landmark-edit-general,.map-comment-feature-editor div.tab-content,.camera div.tab-content,.settings.side-panel-section,.direction-message,.save-popover,p.message,span.street,ul.feed-list,ul.result-list,.modal-content,.archive-panel,.selection.selection-icon,.tabs-container,.place-update,.menu,ul.nav.nav-tabs,.notification-detail.panel.show,.segment-details,.alert-danger,.attributes-form,.image-view,div#node-edit-general,.topbar .loading-indicator
+.problem-edit,.title,.user-about,div#segment-edit-general,div#landmark-edit-general,.map-comment-feature-editor div.tab-content,.camera div.tab-content,.settings.side-panel-section,.direction-message,.save-popover,p.message,span.street,ul.feed-list,ul.result-list,.modal-content,.archive-panel,.selection.selection-icon,.tabs-container,.place-update,.menu,ul.nav.nav-tabs,.notification-detail.panel.show,.segment-details,.alert-danger,.attributes-form,.image-view,div#node-edit-general,.topbar .loading-indicator,.changes-log-region
 {
   direction:rtl;
 }
@@ -289,6 +289,33 @@ span.restriction-item-badge.restriction-item-badge-allowed,.venue-image-dialog .
   margin-left:10px;
 }
 /* Place work hours */
+
+/* Save chnagelog menu */
+.changes-log-region .action-item .left-side {
+  left: inherit;
+  right: 0;
+}
+
+.changes-log-region .action-item .left-side .dot-container .dot {
+  left: inherit;
+  right: 5px;
+}
+
+.changes-log-region .action-item .left-side .dot-container .dot:after {
+  left: inherit;
+  right: -2px;
+}
+
+.changes-log-region .action-item .right-side {
+  margin-left: inherit;
+  margin-right: 18px;
+}
+
+.changes-log-region .actions-group-container .actions {
+  right: inherit;
+  left: 0px;
+}
+/* Save changelog menu */
 
 div#WMEFP-UR-ALLPM
 {
