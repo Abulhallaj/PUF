@@ -247,20 +247,26 @@ span.restriction-item-badge.restriction-item-badge-allowed,.venue-image-dialog .
 
 #edit-buttons .toolbar-group .toolbar-group-item
 {
-  padding-right:40px;
+  /*padding-right:40px;*/
   padding-left:inherit;
 }
 
 #edit-buttons .toolbar-group .toolbar-group-item .item-icon
 {
-  right:0;
   left:inherit;
+  right:0;
 }
 
 #edit-buttons .toolbar-group .toolbar-group-item .menu-title
 {
   padding-right:0;
   padding-left:15px;
+}
+
+#edit-buttons .toolbar-group .toolbar-group-item .item-container
+{
+  padding-left: 0px;
+  padding-right: 40px;
 }
 
 #edit-buttons .toolbar-group-map-comments .dropdown-menu .drawing-controls
