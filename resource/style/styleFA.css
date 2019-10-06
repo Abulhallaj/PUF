@@ -8,7 +8,7 @@ section#sidepanel-PersianUIFix
 @import url('https://cdn.rawgit.com/rastikerdar/vazir-font/master/dist/font-face.css');
 /* End webfont implementation */
 
-body,label.control-label,.tooltip
+body,label.control-label,.tooltip,.changes-log-region,.menu-title,#toolbar,label
 {
   font-family:Vazir,'Segoe UI',Tahoma,sans-serif!important;
 }
@@ -19,7 +19,7 @@ body,label.control-label,.tooltip
   font-weight:700;
 }
 
-.problem-edit,.title,.user-about,div#segment-edit-general,div#landmark-edit-general,.map-comment-feature-editor div.tab-content,.camera div.tab-content,.settings.side-panel-section,.direction-message,.save-popover,p.message,span.street,ul.feed-list,ul.result-list,.modal-content,.archive-panel,.selection.selection-icon,.tabs-container,.place-update,.menu,ul.nav.nav-tabs,.notification-detail.panel.show,.segment-details,.alert-danger,.attributes-form,.image-view,div#node-edit-general,.topbar .loading-indicator
+.problem-edit,.title,.user-about,div#segment-edit-general,div#landmark-edit-general,.map-comment-feature-editor div.tab-content,.camera div.tab-content,.settings.side-panel-section,.direction-message,.save-popover,p.message,span.street,ul.feed-list,ul.result-list,.modal-content,.archive-panel,.selection.selection-icon,.tabs-container,.place-update,.menu,ul.nav.nav-tabs,.notification-detail.panel.show,.segment-details,.alert-danger,.attributes-form,.image-view,div#node-edit-general,.topbar .loading-indicator,.changes-log-region
 {
   direction:rtl;
 }
@@ -247,14 +247,14 @@ span.restriction-item-badge.restriction-item-badge-allowed,.venue-image-dialog .
 
 #edit-buttons .toolbar-group .toolbar-group-item
 {
-  padding-right:40px;
+  /*padding-right:40px;*/
   padding-left:inherit;
 }
 
 #edit-buttons .toolbar-group .toolbar-group-item .item-icon
 {
-  right:0;
   left:inherit;
+  right:0;
 }
 
 #edit-buttons .toolbar-group .toolbar-group-item .menu-title
@@ -263,12 +263,35 @@ span.restriction-item-badge.restriction-item-badge-allowed,.venue-image-dialog .
   padding-left:15px;
 }
 
+#edit-buttons .toolbar-group .toolbar-group-item .item-container
+{
+  padding-left: 0px;
+  padding-right: 40px;
+}
+
 #edit-buttons .toolbar-group-map-comments .dropdown-menu .drawing-controls
 {
   right:2px;
   left:inherit;
 }
 /* Menu Dropdown Layout */
+
+/* Map Layers Layout */
+ul.list-unstyled.togglers {
+  padding: 0;
+}
+.layer-switcher .menu .wz-checkbox input[type="checkbox"] + label:before
+{
+    margin-right: 0px;
+    margin-left: 8px;
+}
+
+.layer-switcher .layer-switcher-toggler-tree-category > .w-icon-caret-down.upside-down {
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+/* Map Layers Layout */
 
 /* Place work hours */
 .radio input[type='radio'], .radio-inline input[type='radio'], .checkbox input[type='checkbox'], .checkbox-inline input[type='checkbox']
@@ -289,6 +312,33 @@ span.restriction-item-badge.restriction-item-badge-allowed,.venue-image-dialog .
   margin-left:10px;
 }
 /* Place work hours */
+
+/* Save chnagelog menu */
+.changes-log-region .action-item .left-side {
+  left: inherit;
+  right: 0;
+}
+
+.changes-log-region .action-item .left-side .dot-container .dot {
+  left: inherit;
+  right: 5px;
+}
+
+.changes-log-region .action-item .left-side .dot-container .dot:after {
+  left: inherit;
+  right: -2px;
+}
+
+.changes-log-region .action-item .right-side {
+  margin-left: inherit;
+  margin-right: 18px;
+}
+
+.changes-log-region .actions-group-container .actions {
+  right: inherit;
+  left: 0px;
+}
+/* Save changelog menu */
 
 div#WMEFP-UR-ALLPM
 {
