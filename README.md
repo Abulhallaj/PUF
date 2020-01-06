@@ -1,29 +1,30 @@
 # PUF (Persian UI Fix) #
-**Contributors:** [Ali Abulhallaj](http://google.com/+AliAbulhallaj)
-**Tags:** puf, persian ui fix, wme, waze map editor, wme script  
+**Contributors:** [Ali Abulhallaj](http://google.com/+AliAbulhallaj)  
+**Tags:** puf, persian ui fix, wme, wme script  
 **Requires :** [TamperMonkey](https://tampermonkey.net/)  
 **License:** GPLv3  
 **License URI:** http://www.gnu.org/licenses/gpl-3.0.html  
 **Changelog:** [Read here](changelog.md)
 
-Add some alternation to fix Waze editor UI for Persian editors  
+Add some alternation to fix editor UI for Persian editors  
 
 ![PUF Before & After](resource/graphic/PUF_Before-After.gif)
 
 ## توضیحات ##
 
-این اسکریپت به منظور بهینه‌سازی رابط کاربری ادیتور ویز برای کاربران فارسی زبان طراحی شده است. سعی بر این است تا محیط ادیتور تا حد ممکن با ساختار راست به چپ هماهنگ شده و تجربه شما را از ویرایش نقشه بهبود بخشد.
+این اسکریپت به منظور بهینه‌سازی رابط کاربری برای کاربران فارسی زبان طراحی شده است. سعی بر این است تا محیط ادیتور تا حد ممکن با ساختار راست به چپ هماهنگ شده و تجربه شما را بهبود بخشد.
 
 مواردی که این اسکریپت مرتفع میکند:
 
 - اصلاح فونت فارسی در محیط ویرایشگر برای خوانایی بیشتر
-- راست‌چین کردن برگه مشخصات سگمنت
-- راست‌چین کردن برگه مشخصات مکان
+- راست‌چین کردن منوی تنظیمات ویرایشگر
 - راست‌چین کردن برگه خوراک و سایر زیرمنوها
 - راست‌چین کردن برگه سفرها
 - راست‌چین کردن برگه منطقه‌ها
+- راست‌چین کردن برگه مشخصات سگمنت
+- راست‌چین کردن برگه مشخصات مکان
+- راست‌چین کردن پنجره تغییرات هنگام ذخیره
 - راست‌چین کردن منوهای رسم سگمنت و محل
-- راست‌چین کردن منوی تنظیمات ویرایشگر
 - راست‌چین کردن پنجره کامنت‌ها
 - راست‌چین کردن پنجره دوربین‌ها
 - راست‌چین کردن پنجره اعلانات

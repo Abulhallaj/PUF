@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name			WME Persian UI Fix (dev)
-// @author			Ali Abulhallaj
-// @namespace		hallaj@gmail.com
-// @version			1.74
+// @name			WME Persian UI Fix
+// @author			Nobody
+// @namespace		nobody@no.where
+// @version			1.8
 // @description		Add some alternation to fix waze editor UI for Persian editors
 // @include			https://www.waze.com/*/editor*
 // @include			https://www.waze.com/editor*
@@ -10,7 +10,7 @@
 // @exclude			https://www.waze.com/*user/*editor/*
 // @match			https://www.waze.com/editor*
 // @match			https://www.waze.com/*/editor*
-// @copyright		2017+, Ali Abulhallaj (aabulhallaj)
+// @copyright		2017+, an Unknown Person of Web
 // @grant			GM_addStyle
 // @grant    		GM_getValue
 // @grant    		GM_setValue
@@ -19,13 +19,16 @@
 // ==/UserScript==
 
 /* Changelog
-	1.74 - 1398/06/14
+	1.8 - 1398/09/16
+    -- Add versionCheck Control
 	  -- Fix Top menu font
 	  -- Fix Layers Menu UI
 	  -- Some minor changes
-	1.73 - 1398/06/14
-	  -- Fix Top menu font
-	  -- Fix Layers Menu UI
+	1.7 - 1397/09/07
+		-- Fix Top Menu icon position
+		-- Some minor changes
+	1.6 - 1397/05/25
+		-- Add Save menu changelog UI Fix
 	  -- Some minor changes
 	1.5 - 1396/12/07
 		-- Fix Top menu position with standard code
@@ -110,7 +113,8 @@
 	0.1 - initial version
 	  -- Change font of street name to Tahoma;
 */
-var wmepuf_version = '1.74';
+
+var wmepuf_version = '1.8';
 var prefix = "wmePUF";
 var wmePUFAddon;
 var tabAttempts = 0;
@@ -191,6 +195,8 @@ function createAddon() {
 	section.innerHTML += '<li>راست&zwnj;چین کردن برگه منطقه&zwnj;ها</li>';
 	section.innerHTML += '<li>راست&zwnj;چین کردن برگه مشخصات سگمنت</li>';
 	section.innerHTML += '<li>راست&zwnj;چین کردن برگه مشخصات مکان</li>';
+	section.innerHTML += '<li>راست&zwnj;چین کردن پنجره تغییرات هنگام ذخیره</li>';
+	section.innerHTML += '<li>راست&zwnj;چین کردن منوهای رسم سگمنت و محل</li>';
 	section.innerHTML += '<li>راست&zwnj;چین کردن پنجره کامنت&zwnj;ها</li>';
 	section.innerHTML += '<li>راست&zwnj;چین کردن پنجره دوربین&zwnj;ها</li>';
 	section.innerHTML += '<li>راست&zwnj;چین کردن پنجره اعلانات</li>';
@@ -200,8 +206,7 @@ function createAddon() {
 	section.innerHTML += '<li>اصلاح برخی فواصل متون جهت نمایش بهتر</li>';
 	section.innerHTML += '<li>اصلاح مکان برخی آیکون&zwnj;ها</li>';
 	section.innerHTML += '<ul>';
-	section.innerHTML += '<div style="text-align:left;"><b>بدست افرادناشناش</b><br><br></div>';
-	section.innerHTML += 'جهت ارتباط، گزارش مشکل، پیشنهاد یا انتقاد به آدرس <a href="https://www.waze.com/forum/viewtopic.php?f=1053&t=246014" target="_blank">https://www.waze.com/forum/viewtopic.php?f=1053&t=246014</a> مراجعه نمایید.';
+	section.innerHTML += '<div style="text-align:left;"><b>بدست افرادناشناس</b><br><br></div>';
 	addon.appendChild(section);
 	addon.className = "tab-pane";
 	return addon;
