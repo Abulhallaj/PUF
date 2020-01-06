@@ -1,5 +1,5 @@
 # PUF ToDo List #
-* Show changlog in popup
+* ~~Show changlog in popup~~
 * ~~Top menu position fix~~
 * ~~Map loading indicator direction fix~~
 * ~~Node information panel direction fix~~
