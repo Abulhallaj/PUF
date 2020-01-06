@@ -1,4 +1,9 @@
 # PUF Changelog #
+### v1.8 - 1398/09/16 ###
+* Add versionCheck Control
+* Fix Top menu font
+* Fix Layers Menu UI
+* Some minor changes
 ### v1.7 - 1397/09/07 ###
 * Fix Top Menu icon position
 * Some minor changes

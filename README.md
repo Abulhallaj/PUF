@@ -8,6 +8,8 @@
 
 Add some alternation to fix editor UI for Persian editors  
 
+![PUF Before & After](resource/graphic/PUF_Before-After.gif)
+
 ## توضیحات ##
 
 این اسکریپت به منظور بهینه‌سازی رابط کاربری برای کاربران فارسی زبان طراحی شده است. سعی بر این است تا محیط ادیتور تا حد ممکن با ساختار راست به چپ هماهنگ شده و تجربه شما را بهبود بخشد.

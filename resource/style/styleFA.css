@@ -8,7 +8,7 @@ section#sidepanel-PersianUIFix
 @import url('https://cdn.rawgit.com/rastikerdar/vazir-font/master/dist/font-face.css');
 /* End webfont implementation */
 
-body,label.control-label,.tooltip,.changes-log-region
+body,label.control-label,.tooltip,.changes-log-region,.menu-title,#toolbar,label
 {
   font-family:Vazir,'Segoe UI',Tahoma,sans-serif!important;
 }
@@ -275,6 +275,23 @@ span.restriction-item-badge.restriction-item-badge-allowed,.venue-image-dialog .
   left:inherit;
 }
 /* Menu Dropdown Layout */
+
+/* Map Layers Layout */
+ul.list-unstyled.togglers {
+  padding: 0;
+}
+.layer-switcher .menu .wz-checkbox input[type="checkbox"] + label:before
+{
+    margin-right: 0px;
+    margin-left: 8px;
+}
+
+.layer-switcher .layer-switcher-toggler-tree-category > .w-icon-caret-down.upside-down {
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+/* Map Layers Layout */
 
 /* Place work hours */
 .radio input[type='radio'], .radio-inline input[type='radio'], .checkbox input[type='checkbox'], .checkbox-inline input[type='checkbox']
