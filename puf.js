@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name			WME Persian UI Fix
+// @name			WME Persian UI Fix (dev)
 // @author			Nobody
 // @namespace		nobody@no.where
 // @version			1.8
@@ -20,23 +20,23 @@
 
 /* Changelog
 	1.8 - 1398/09/16
-    -- Add versionCheck Control
+	  -- Add versionCheck Control
 	  -- Fix Top menu font
 	  -- Fix Layers Menu UI
 	  -- Some minor changes
 	1.7 - 1397/09/07
-		-- Fix Top Menu icon position
-		-- Some minor changes
+	  -- Fix Top Menu icon position
+	  -- Some minor changes
 	1.6 - 1397/05/25
-		-- Add Save menu changelog UI Fix
+	  -- Add Save menu changelog UI Fix
 	  -- Some minor changes
 	1.5 - 1396/12/07
-		-- Fix Top menu position with standard code
+	  -- Fix Top menu position with standard code
 	  -- Some minor changes
 	1.4 - 1396/12/06
-		-- Add Map loading indicator direction Fix
-		-- Add Node edit detail panel UI Fix
-		-- Fix Place work hours direction
+	  -- Add Map loading indicator direction Fix
+	  -- Add Node edit detail panel UI Fix
+	  -- Fix Place work hours direction
 	  -- Some minor changes
 	1.3 - 1396/11/02
 	  -- Add Vazir webfont as default UI font (https://github.com/rastikerdar/vazir-font)
