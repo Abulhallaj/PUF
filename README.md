@@ -1,5 +1,4 @@
 # PUF (Persian UI Fix) #
-**Contributors:** [Ali Abulhallaj](http://google.com/+AliAbulhallaj)  
 **Tags:** puf, persian ui fix, wme, wme script  
 **Requires :** [TamperMonkey](https://tampermonkey.net/)  
 **License:** GPLv3  
