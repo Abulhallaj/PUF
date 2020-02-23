@@ -159,18 +159,6 @@ span.restriction-item-badge.restriction-item-badge-allowed,.venue-image-dialog .
   padding:5px 12px 5px 7px;
 }
 
-.layer-switcher .togglers .children
-{
-  padding-right:22px;
-  padding-left:inherit;
-}
-
-.layer-switcher .togglers .text-checkboxes .text-checkbox
-{
-  margin-right:12px;
-  margin-left:inherit;
-}
-
 .controls-container input[type='checkbox']:not(:checked) + label,.controls-container input[type='checkbox']:checked + label
 {
   padding-right:25px;
@@ -280,7 +268,31 @@ span.restriction-item-badge.restriction-item-badge-allowed,.venue-image-dialog .
 ul.list-unstyled.togglers {
   padding: 0;
 }
-.layer-switcher .menu .wz-checkbox input[type="checkbox"] + label:before
+
+.layer-switcher .togglers .group
+{
+    padding: 0 6px 0 12px;
+}
+
+.layer-switcher .layer-switcher-toggler-tree-category .wz-toggle-switch
+{
+    right:inherit;
+    left:0;
+}
+
+.layer-switcher .togglers .text-checkboxes .text-checkbox
+{
+  margin-right:12px;
+  margin-left:inherit;
+}
+
+.layer-switcher .togglers ul
+{
+    padding-right:26px;
+    padding-left:inherit;
+}
+
+.layer-switcher .menu .wz-checkbox input[type='checkbox'] + label:before
 {
     margin-right: 0px;
     margin-left: 8px;
@@ -340,6 +352,7 @@ ul.list-unstyled.togglers {
 }
 /* Save changelog menu */
 
+/* WME Scripts */
 div#WMEFP-UR-ALLPM
 {
   right: inherit!important;
@@ -348,3 +361,18 @@ div#WMEFP-UR-ALLPM
   margin-left: inherit!important;
   float: left!important;
 }
+
+.WazeControlDrawFeature input {
+  margin-right: 5px;
+}
+
+.WazeControlDrawFeature label {
+  margin-right: 0 !important;
+}
+
+.WazeControlDrawFeature .tbLegend {
+  float: right;
+  margin-right: 0;
+  margin-left: 5px;
+}
+/* WME Scripts */
