@@ -1,4 +1,8 @@
 # PUF Changelog #
+### 1.9 - 1398/12/04
+* Fix Layer Menu
+* Fix Toolbox Comatibility
+* Some minor changes
 ### v1.8 - 1398/09/16 ###
 * Add versionCheck Control
 * Fix Top menu font
