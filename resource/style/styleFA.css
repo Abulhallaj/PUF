@@ -8,7 +8,7 @@ section#sidepanel-PersianUIFix
 @import url('https://cdn.rawgit.com/rastikerdar/vazir-font/master/dist/font-face.css');
 /* End webfont implementation */
 
-body,label.control-label,.tooltip,.changes-log-region,.menu-title,#toolbar,label
+body,label.control-label,.tooltip,.changes-log-region,.group-title,.menu-title,.toolbar,label,.title h6,wz-checkbox
 {
   font-family:Vazir,'Segoe UI',Tahoma,sans-serif!important;
 }
@@ -274,7 +274,7 @@ ul.list-unstyled.togglers {
     padding: 0 6px 0 12px;
 }
 
-.layer-switcher .layer-switcher-toggler-tree-category .wz-toggle-switch
+.layer-switcher .layer-switcher-toggler-tree-category wz-toggle-switch
 {
     right:inherit;
     left:0;
