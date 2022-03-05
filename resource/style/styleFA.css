@@ -8,7 +8,7 @@ section#sidepanel-PersianUIFix
 @import url('https://cdn.rawgit.com/rastikerdar/vazir-font/master/dist/font-face.css');
 /* End webfont implementation */
 
-body,label.control-label,.tooltip,.changes-log-region,.group-title,.menu-title,.toolbar,label,.title h6,wz-checkbox
+body,label.control-label,.tooltip,.changes-log-region,.group-title,.menu-title,.toolbar,label,h5,.title h6,.btn,.panel .waze-plain-btn,wz-checkbox,wz-menu-item
 {
   font-family:Vazir,'Segoe UI',Tahoma,sans-serif!important;
 }
@@ -22,6 +22,16 @@ body,label.control-label,.tooltip,.changes-log-region,.group-title,.menu-title,.
 .problem-edit,.title,.user-about,div#segment-edit-general,div#landmark-edit-general,.map-comment-feature-editor div.tab-content,.camera div.tab-content,.settings.side-panel-section,.direction-message,.save-popover,p.message,span.street,ul.feed-list,ul.result-list,.modal-content,.archive-panel,.selection.selection-icon,.tabs-container,.place-update,.menu,ul.nav.nav-tabs,.notification-detail.panel.show,.segment-details,.alert-danger,.attributes-form,.image-view,div#node-edit-general,.topbar .loading-indicator,.changes-log-region
 {
   direction:rtl;
+}
+
+#edit-panel .additional-attributes, .edit-panel .additional-attributes 
+{
+  direction: rtl;
+}
+
+.transactions 
+{
+  direction: rtl;
 }
 
 .controls.input-group,input.form-control,.venue-image-dialog .user,.conversation-view .comment-title
@@ -79,6 +89,12 @@ th
   text-align:left;
 }
 
+.list-unstyled 
+{
+  padding-right: 0;
+  padding-left: inherit;
+}
+
 .controls-container.in-label.toggle-empty,.unit-label,.problem-edit .section .title::after,button.send-button.waze-btn.waze-btn-blue,.pinned.text-checkbox,.venue-image-dialog .delete-button,.close,.save-popover .error-list .actions .save
 {
   float:left!important;
@@ -86,7 +102,7 @@ th
 
 #sidebar #sidepanel-prefs .controls .btn-group
 {
-  right:inherit;
+  right:inherit!important;
   left:0;
 }
 
@@ -96,10 +112,11 @@ th
   padding-left:0;
 }
 
-#edit-panel .edit-restrictions:before,.edit-panel .edit-restrictions:before
+ul.dropdown-menu.scrollable-dropdown-menu
 {
-  right:-2px;
-  left:inherit;
+  right: 0;
+  left: inherit;
+  text-align:right;
 }
 
 .direction-label,.conversation-view span.username,.save-popover .error-list .actions .edit
@@ -113,50 +130,22 @@ th
   margin-left:8px;
 }
 
-th.restriction-segment-attribute
-{
-  padding-right:20px!important;
-  padding-left:8px!important;
-}
-
-span.restriction-item-badge.restriction-item-badge-allowed,.venue-image-dialog .delete-button:before
-{
-  margin-right:inherit!important;
-  margin-left:5px;
-}
-
+/* Temporary disable because of WME Bookmark conflict
 .fa-chevron-right:before
 {
-  content:'\F053'!important;
+  content:'\f053'!important;
 }
 
-.restrictions-summary .btn.do-create
+.fa-chevron-left:before 
 {
-  margin-right:32px;
-  margin-left:inherit;
+  content:'\f054'!important;
 }
+*/
 
 .modal-footer .btn + .btn
 {
   margin-right:5px;
   margin-left:inherit;
-}
-
-.restriction-editing-region .timeframe-editing-region .timeframe-section-hours .timepicker
-{
-  margin-right:inherit;
-  margin-left:15px;
-}
-
-.restriction-editing-region .timeframe-editing-region .timeframe-section-dates .label-datepicker
-{
-  margin-right:5px;
-  margin-left:5px;
-}
-
-.restriction-editing-region .drive-profile-editing-region .drive-profile-edit-free .drive-profile-item .restriction-chip
-{
-  padding:5px 12px 5px 7px;
 }
 
 .controls-container input[type='checkbox']:not(:checked) + label,.controls-container input[type='checkbox']:checked + label
@@ -203,6 +192,84 @@ span.restriction-item-badge.restriction-item-badge-allowed,.venue-image-dialog .
   text-align:right;
 }
 
+/* Conversation Panel */
+.conversation-view .text
+{
+  font-family:Vazir,'Segoe UI',Tahoma,sans-serif!important;
+}
+
+.conversation-view .new-comment-form .send-button
+{
+margin-left:inherit;
+margin-right:auto;
+}
+
+.panel.place-update-edit .header .main-title {
+  font-family:Vazir,'Segoe UI',Tahoma,sans-serif!important;
+}
+/* Conversation Panel */
+
+/* Restriction Panel */
+.restrictions-summary .restriction-summary-title, .restriction-editing-region .restriction-editing-title, .restriction-editing-region .restriction-validation-region .restriction-validation-title 
+{
+  font-family:Vazir,'Segoe UI',Tahoma,sans-serif!important;
+}
+
+th.restriction-segment-attribute
+{
+  padding-right:20px!important;
+  padding-left:8px!important;
+}
+
+span.restriction-item-badge.restriction-item-badge-allowed,.venue-image-dialog .delete-button:before
+{
+  margin-right:inherit!important;
+  margin-left:5px;
+}
+
+#edit-panel .edit-restrictions:before,.edit-panel .edit-restrictions:before
+{
+  right:-2px;
+  left:inherit;
+}
+
+.restrictions-summary .btn.do-create
+{
+  margin-right:32px;
+  margin-left:inherit;
+}
+
+.restriction-editing-region .timeframe-editing-region .timeframe-section-hours .timepicker
+{
+  margin-right:inherit;
+  margin-left:15px;
+}
+
+.restriction-editing-region .timeframe-editing-region .timeframe-section-dates .label-datepicker
+{
+  margin-right:5px;
+  margin-left:5px;
+}
+
+.restriction-editing-region .drive-profile-editing-region .drive-profile-edit-free .drive-profile-item .restriction-chip
+{
+  padding:5px 12px 5px 7px;
+}
+/* Restriction Panel */
+
+/* Segment Lane Panel */
+div#segment-edit-lanes 
+{
+  direction: rtl;
+}
+
+.direction-lanes .lane-instruction .drawing 
+{
+  margin-right: inherit;
+  margin-left: 21px;
+}
+/* Segment Lane Panel */
+
 /* Menu Dropdown Layout */
 .toolbar-submenu
 {
@@ -211,8 +278,18 @@ span.restriction-item-badge.restriction-item-badge-allowed,.venue-image-dialog .
 
 .toolbar .group-title
 {
-  margin-right:40px;
+  margin-right:30px;
   margin-left:inherit!important;
+}
+
+span.menu-title {
+  margin-right:8px;
+  margin-left:inherit!important;
+}
+
+.toolbar-button.restricted-driving-area
+{
+  direction:rtl;
 }
 
 .toolbar-group-drawing menu.dropdown-menu
@@ -262,6 +339,11 @@ span.restriction-item-badge.restriction-item-badge-allowed,.venue-image-dialog .
   right:2px;
   left:inherit;
 }
+
+.toolbar-tooltip-text
+{
+  text-align: right;
+}
 /* Menu Dropdown Layout */
 
 /* Map Layers Layout */
@@ -298,12 +380,94 @@ ul.list-unstyled.togglers {
     margin-left: 8px;
 }
 
-.layer-switcher .layer-switcher-toggler-tree-category > .w-icon-caret-down.upside-down {
+.layer-switcher .layer-switcher-toggler-tree-category>.w-icon.w-icon-caret-down.upside-down
+ {
   -webkit-transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   transform: rotate(90deg);
 }
 /* Map Layers Layout */
+
+/* User Info Box */
+.tippy-box[data-theme='user-box'] .user-box-container 
+{
+  direction: rtl;
+}
+
+.tippy-box[data-theme='user-box'] .user-box-container .user-box-header .user-box-header-details 
+{
+  padding: 18px 0 18px 18px;
+}
+
+.tippy-box[data-theme='user-box'] .user-box-container .user-box-numbers .number-label 
+{
+  text-align: center;
+}
+
+.tippy-box[data-theme='user-box'] .user-box-container .user-box-numbers .number 
+{
+  text-align: center;
+}
+
+.tippy-box[data-theme='user-box'] .user-box-container ul.user-box-links 
+{
+  text-align: right;
+}
+/* User Info Box */
+
+/* Permalink Share Box */
+.tippy-box[data-theme='share-location-pop-up'] .share-location-pop-up-wrapper .share-location-pop-up h5 
+{
+  text-align: right;
+}
+
+.tippy-box[data-theme='share-location-pop-up'] .share-location-pop-up-wrapper .share-location-pop-up h5 i.w-icon 
+{
+  float: left;
+  margin-right: 12px;
+  margin-left: 0;
+}
+
+.tippy-box[data-theme='share-location-pop-up'] .share-location-pop-up-wrapper .share-location-pop-up wz-checkbox 
+{
+  direction: rtl;
+  text-align: right;
+}
+/* Permalink Share Box */
+
+/* Voice Prompt */
+div#big-tooltip-region 
+{
+  direction: rtl;
+}
+
+.turn-instructions-panel 
+{
+  direction: rtl;
+}
+
+.turn-preview-inner .turn-preview-content ,.turn-instructions-panel .panel-header
+{
+  font-family:Vazir,'Segoe UI',Tahoma,sans-serif!important;
+}
+
+.turn-preview-inner .turn-preview-content 
+{
+  padding-right: 12px;
+  padding-left: 0!important;
+}
+
+.turn-instructions-panel .locale-selector 
+{
+  float: left;
+}
+
+.turn-instructions-panel .play-button 
+{
+  left: 6px;
+  right: inherit!important;
+}
+/* Voice Prompt */
 
 /* Place work hours */
 .radio input[type='radio'], .radio-inline input[type='radio'], .checkbox input[type='checkbox'], .checkbox-inline input[type='checkbox']
@@ -326,31 +490,107 @@ ul.list-unstyled.togglers {
 /* Place work hours */
 
 /* Save chnagelog menu */
-.changes-log-region .action-item .left-side {
+.toolbar .toolbar-button.waze-icon-save .counter
+{
+  left: 5%;
+}
+
+.changes-log-region .action-item .left-side 
+{
   left: inherit;
   right: 0;
 }
 
-.changes-log-region .action-item .left-side .dot-container .dot {
+.changes-log-region .action-item .left-side .dot-container .dot 
+{
   left: inherit;
   right: 5px;
 }
 
-.changes-log-region .action-item .left-side .dot-container .dot:after {
+.changes-log-region .action-item .left-side .dot-container .dot:after 
+{
   left: inherit;
   right: -2px;
 }
 
-.changes-log-region .action-item .right-side {
+.changes-log-region .action-item .right-side 
+{
   margin-left: inherit;
   margin-right: 18px;
 }
 
-.changes-log-region .actions-group-container .actions {
+.changes-log-region .actions-group-container .actions 
+{
   right: inherit;
   left: 0px;
 }
+
+.changes-log-region .header h6 
+{
+  direction: rtl;
+  font-family: Vazir,'Segoe UI',Tahoma,sans-serif!important;
+  text-align: right;
+}
+
+.changes-log-region .action-item .right-side .title 
+{
+  font-family: Vazir,'Segoe UI',Tahoma,sans-serif!important;
+  text-align: right;
+}
 /* Save changelog menu */
+
+/* Status Card Box */
+div#wz-dialog-container 
+{
+  direction: rtl;
+}
+
+.tile-build-status-card .tile-build-status-card-content 
+{
+  padding-right: inherit;
+  padding-left: 45px;
+}
+
+.tile-build-status-card .tile-build-status-card-block .tile-build-status-card-block__small-title .fa-check-circle 
+{
+  margin-right: 5px;
+  margin-left: inherit;
+}
+
+.tile-build-status-card .tile-build-status-card-block .tile-build-status-card-block__upper wz-button 
+{
+  margin: 9px 0 0 9px;
+}
+
+.tile-build-status-card .tile-build-status-card-block .tile-build-status-card-block__upper wz-button .phone-icon 
+{
+  margin-right: inherit;
+  margin-left: 9px;
+}
+
+#WazeMap .snapshot-message .snapshot-mode-message 
+{
+  direction: rtl;
+}
+
+#WazeMap .snapshot-message .snapshot-mode-message .snapshot-mode-text .car-icon 
+{
+  margin-right: inherit;
+  margin-left: 10px;
+}
+
+#WazeMap .snapshot-message .snapshot-mode-message .snapshot-mode-text .w-icon-info 
+{
+  margin-right: 10px;
+  margin-left: inherit;
+}
+
+.wz-toggle-switch .wz-toggle-label 
+{
+  margin-inline-end: 16px;
+  margin-inline-start: inherit;
+}
+/* Status Card Box*/
 
 /* WME Scripts */
 div#WMEFP-UR-ALLPM
@@ -374,5 +614,44 @@ div#WMEFP-UR-ALLPM
   float: right;
   margin-right: 0;
   margin-left: 5px;
+}
+/* UR-MP */
+span[id^='purt-categoriespur'], span[id^='purt-namepur'], span[id^='mct-subjectmc'], span[id^='mct-bodymc'], span[id^='mpt-descriptionmp'], span[id^='urt-descriptionur']
+{
+  font-family:Vazir,'Segoe UI',Tahoma,sans-serif!important;
+  font-weight:300;
+}
+
+/* URC */
+div#urceShortcutsExpandDiv 
+{
+  direction: ltr;
+}
+#panel-container .mapUpdateRequest.panel .problem-edit .header 
+{
+  padding-right:30px;
+  padding-left:inherit;
+}
+#panel-container .mapUpdateRequest.panel .problem-edit .header .main-title
+{
+  font-family:Vazir,'Segoe UI',Tahoma,sans-serif!important;
+}
+
+/* JA */
+#sidepanel-ja form.attributes-form.side-panel-section
+{
+  direction: ltr;
+}
+
+/* WME_FU*/
+#sidebar 
+{
+  font-family:Vazir,'Segoe UI',Tahoma,sans-serif!important;
+}
+
+/* WME Color Highlights */
+#sidepanel-highlights input[type='checkbox']
+{
+  margin-left: -20px;
 }
 /* WME Scripts */

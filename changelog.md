@@ -1,7 +1,23 @@
 # PUF Changelog #
-### 1.91 - 1400/12/01
+## v2.0 - 1400/12/13
+* Add Segment Lane Panel 
+* Add User Info Box
+* Add Permalink Share Box
+* Add Voice Prompt Box
+* Add Status Card Box
+* Fix Edit Panel direction
+* Fix Side panels direction
+* Fix Resteriction panel direction
+* Fix Conversation panel direction
+* Fix Toolbar direction
+* Fix Tooltip box direction
+* Fix Layer switcher direction and icons
+* Fix Save chnagelog menu
+* Compatibility with major plugins (UR-MP, URC, JA, WME_FU, WME Color Highlights, WME Bookmark & ...)
+* Some other changes for compatibility with new editor
+### v1.91 - 1400/12/01
 * Some minor changes
-### 1.9 - 1398/12/04
+### v1.9 - 1398/12/04
 * Fix Layer Menu
 * Fix Toolbox Comatibility
 * Some minor changes
