@@ -192,6 +192,19 @@ ul.dropdown-menu.scrollable-dropdown-menu
   text-align:right;
 }
 
+.map-comment-name-editor .edit-button 
+{
+  right: inherit;
+  left: 15px;
+}
+
+/* Sidebar */
+.speed-limit *:not(.average-speed-camera, #signsholder div)
+{
+    float: left !important;
+}
+/* Sidebar */
+
 /* Conversation Panel */
 .conversation-view .text
 {
@@ -258,9 +271,20 @@ span.restriction-item-badge.restriction-item-badge-allowed,.venue-image-dialog .
 /* Restriction Panel */
 
 /* Segment Lane Panel */
-div#segment-edit-lanes 
+div#segment-edit-lanes
 {
   direction: rtl;
+}
+
+.lane-arrows div 
+{
+  direction: ltr!important;
+  text-align: center;
+}
+
+.turns-region div 
+{
+  direction: ltr !important;
 }
 
 .direction-lanes .lane-instruction .drawing 

@@ -6,3 +6,4 @@
 * ~~Place work hours direction fix~~
 * Selectable font
 * PUF in English environment
+* Compatibility with ClickSaver Plugin

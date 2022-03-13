@@ -1,4 +1,11 @@
 # PUF Changelog #
+### v2.1 - 1398/12/22
+* Fix Speedlimit text direction
+* Fix Lane arrows in Lane width panel
+* Fix Comment Box
+* Compatibility with WME Speedhelper plugin
+* Compatibility with WME Lanetools plugin
+* Some minor changes
 ## v2.0 - 1400/12/13
 * Add Segment Lane Panel 
 * Add User Info Box
